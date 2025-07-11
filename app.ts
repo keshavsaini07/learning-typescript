@@ -44,3 +44,17 @@ let ans2 = 0;
 console.log(ans1); // trues
 
 console.log(ans2); // 0; ans2 is an implicit number type
+
+// 4. null : null is used when you want to explicitly indicate that a variable or property has no value assigned to it
+
+let value1: null; // only null value can be assigned to value1
+
+value1 = null;
+
+console.log(value1)
+
+// 5. undefined : If you declare a variable without assigning it a value, TypeScript automatically assigns undefined to it.
+
+let value2: undefined = undefined;
+
+console.log(value2);
